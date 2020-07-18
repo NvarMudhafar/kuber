@@ -1,0 +1,199 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+em {
+  color: #343a40
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Header Section  */
+
+.navbar .navbar-brand {
+  color: #343a40
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#title {
+  background-color: #f9ed69;
+  text-align: left;
+  color: #343a40;
+}
+
+.navbar {
+  background-color: #f9ed69;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-img {
+  width: 60%;
+  position: absolute;
+  right: 25%;
+  transform: rotate(25deg);
+}
+
+.title-head {
+  font-size: 3.5rem;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.download {
+  margin: 5% 3% 5% 0
+}
+
+
+/* Features Section */
+
+#features {
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.icon {
+  color: #ffd460;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #f9ed69;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #f9ed69;
+  color: #fff;
+  text-align: center;
+}
+
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.test-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #343a40;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.press {
+  padding: 3% 15% 3%
+}
+
+#pricing {
+  text-align: center;
+}
+
+.pricing-text {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.card-head {
+  padding-top: 10px;
+}
+
+#cta {
+  background-color: #f9ed69;
+  text-align: center;
+}
+
+.cta-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #343a40
+}
+
+.cta-button {
+  margin-top: 3%
+}
+
+.press {
+  background-color: #343a40;
+}
+
+#footer {
+  text-align: center;
+}
+
+.footer-icon {
+  padding: 2%;
+  color: #343a40;
+}
+
+.press em {
+  color: #fff;
+}
+
+.price-box {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+  .test-text {
+    font-size: 2rem;
+  }
+}
